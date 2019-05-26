@@ -12,4 +12,6 @@ Install the jest html reporter using the following command and then use the yarn
                     yarn add -D jest-allure
                     yarn test
                     
+The test report can be viewed at the project root folder and would be titled "test-report.html"
+                    
  
