@@ -1,12 +1,12 @@
-# Cucumber-Puppeteer
+# Jest-Puppeteer-Cucumber
 
-A sample project to demonstrate the usage of cucumber-puppeteer.
+A sample project to demonstrate the usage of jest-puppeteer-cucumber
 
 This is an UI automation scenario where in a banking application has been automated to calculate the loan eligiblity.
 
 # Steps to use this project:
 
-Install the jest html reporter using the following command and then use the yarn command to run the test
+Install the jest html reporter using the following command and then use the yarn command to update dependencies and execute the tests.
                     
                     npm install jest-html-reporter --save-dev
                     yarn add -D jest-allure
