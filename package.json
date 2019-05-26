@@ -1,0 +1,36 @@
+{
+  "name": "jest-cucumber-puppeteer-example",
+  "description": "Example project on how to use cucumber and puppeteer with jest for UI testing.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:spirosikmd/jest-cucumber-puppeteer-example.git",
+  "author": "Spyros Ioakeimidis <spyrosikmd@gmail.com>",
+  "devDependencies": {
+    "@types/expect-puppeteer": "^2.2.4",
+    "@types/jest-environment-puppeteer": "^2.2.1",
+    "@types/puppeteer": "^1.12.4",
+    "jest-allure": "^0.1.1",
+    "jest-cucumber": "^2.0.12",
+    "jest-html-reporter": "^2.5.0",
+    "jest-junit": "^6.4.0",
+    "jest-puppeteer": "^3.9.1",
+    "puppeteer": "^1.17.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "testMatch": [
+      "**/*.steps.js"
+    ],
+    "setupTestFrameworkScriptFile": "./jest.setup.js",
+    "reporters": [
+    "default",
+    ["./node_modules/jest-html-reporter", {
+        "pageTitle": "Test Report"
+    }]
+]
+  }
+}
