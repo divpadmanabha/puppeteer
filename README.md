@@ -8,8 +8,8 @@ This is an UI automation scenario where in a banking application has been automa
 
 Install the jest html reporter using the following command and then use the yarn command to update dependencies and execute the tests.
                     
-                    npm install jest-html-reporter --save-dev
-                    yarn add -D jest-allure
+                    yarn install
+                    yarn add -D
                     yarn test
                     
 The test report can be viewed at the project root folder and would be titled "test-report.html"
